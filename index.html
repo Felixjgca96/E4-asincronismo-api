@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea4</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="contenedor-titulo">
+        <img src="./img/POKEBOLA.png" alt="logo" class="logo" />
+        <div class="contenedor-titulos">
+          <h2 class="titulo">E4-Asincronismo + APIS</h2>
+          <h2 class="titulo">BUSCA TU POKEMON!</h2>
+        </div>
+      </div>
+
+      <form id="formulario-pokemonm">
+        <input
+          type="number"
+          id="input-number"
+          placeholder="Ingresá un Id-Pokemon"
+        />
+        <button type="submit" class="boton-agregar" value="">Buscar</button>
+      </form>
+      <div class="contenedor-pokemon" id="contenedor"></div>
+      <div id="pokemon-contenedor">
+        <img src="./img/pokegif.webp" class="logo" alt="" />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <img class="footer-img" src="./img/Imagen11.png" alt="" />
+    </footer>
+    <script src="./request.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
